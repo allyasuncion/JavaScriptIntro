@@ -1,0 +1,9 @@
+.col {
+    background-color: #ffffff;
+    border-radius: 0;
+    grid-column: auto;
+}
+
+*{
+    color:black;
+}
