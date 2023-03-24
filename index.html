@@ -15,20 +15,20 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
 
-  <body>
+  <body class="bg-dark-subtle">
     <div>
-      <span class="float-start p-3">
+      <span class="float p-1 box" >
         <h1>
-          Fancy display heading
-          <small class="text-muted">With faded secondary text</small>
+          FOSSIL
+          <small class="text-muted">Engineering & Architecture</small>
         </h1>
       </span>
     </div>
 
     <section>
-      <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container-fluid">
-          <a class="navbar-brand shadow p-3 bg-dark-subtle" href="#" style="border-radius: 10px;">Navbar</a>
+      <nav class="navbar navbar-expand-lg bg-white box">
+        <div class="container">
+          <a class="navbar-brand p-3 bg-dark-subtle" id="box" href="#" style="border-radius: 10px;">HOME</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -43,29 +43,28 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item p-2">
-                <a class="nav-link active shadow p-3" aria-current="page" href="#" style="border-radius: 10px;">Home</a>
-              </li>
-              <li class="nav-item p-2">
-                <a class="nav-link shadow p-3" href="#" style="border-radius: 10px;">Link</a>
+                <a class="nav-link active shadow p-3" aria-current="page" href="about.html" style="border-radius: 10px;">ABOUT</a>
               </li>
               <li class="nav-item dropdown p-2">
                 <a
                   class="nav-link dropdown-toggle shadow p-3"
-                  href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                  style="border-radius: 10px;">
-                  Dropdown
+                  PROJECTS
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Design Projects</a></li>
+                  <li><a class="dropdown-item" href="#">Building Projects</a></li>
+                  <!-- <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
+                    <a class="dropdown-item" href="#">Book a service</a>
+                  </li> -->
                 </ul>
+              </li>
+              <li class="nav-item p-2" >
+                <a class="nav-link active shadow p-3" aria-current="page" href="about.html" style="border-radius: 10px; background-color: blanchedalmond;">BOOK AN APPOINTMENT</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -84,7 +83,7 @@
       </nav>
     </section>
 
-    <section>
+    <section class="box">
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -111,26 +110,27 @@
 
     <footer>
 
-        <section>
-            <div class="container-fluid row align-items-center bg-white m-5 text-white pt-3 pb-5 pl-5 mr-5">
+        <section >
+            <div class="container row align-items-center bg-white m-5 text-white pt-3 pb-5 pl-5 mr-5 shadow-lg" style="border-radius: 40px;">
                 <div class="col-4">
                     <p class="fw-bold text-center shadow" style="color: black; border-radius: 50px;">
                         CONNECT WITH US
                     </p>
     
                     <div>
-                      <p>
+                      <section class="text-center">
                         <a href="https://www.facebook.com/shackile.asuncion/" rel="noopener" class="fa fa-facebook"></a>
                         <a href="https://twitter.com" rel="noopener" class="fa fa-twitter"></a>
                         <a href="https://www.instagram.com/shackile.ally.asuncion/" rel="noopener" class="fa fa-instagram"></a>
-                        <a href="https://github.com/allyasuncion" rel="noopener" class="fa fa-github"></a>
                         <a href="https://www.linkedin.com/in/shackile-ally-asuncion-453b7010b/" rel="noopener" class="fa fa-linkedin"></a>
-                    </p>
+                      </section>
                     </div>
                 </div>
                 <div class="col-4">
                   <p class="fw-bold mb-3 text-center shadow" style="color: black; border-radius: 50px;">SITE MAP</p>
-                  <iframe style="border-radius: 50px;" width="450" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=baguio city&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  <section class="container">
+                    <iframe  style="border-radius: 50px;" width="400" height="250 " id="gmap_canvas" src="https://maps.google.com/maps?q=baguio city&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  </section>
 
                 </div>
                 <div class="col-3">
