@@ -8,6 +8,11 @@ a:hover {
   background-color: orange;
 }
 
+.wide {
+  width: 1400px;
+
+}
+
 *{
     color:black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
