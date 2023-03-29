@@ -4,8 +4,61 @@
     grid-column: auto;
 }
 
+a:hover {
+  background-color: orange;
+}
+
 *{
     color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+}
+
+.services {
+  display: flex;
+}
+
+.cardDescription {
+  color: rgb(90, 90, 90);
+}
+
+.logoTrade {
+  color: rgb(126, 122, 122);
+}
+
+.loginPage {
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url("../images/wallpapers/Gray_White.svg");
+  background-size: cover;
+  font-size: 1rem;
+}
+
+.leftSidebar {
+  display: flex;
+  margin-right: auto;
+  margin-left: 0;
+  padding: 5px;
+}
+
+.mid-content {
+  display: flex;
+  padding: 5px;
+}
+
+.rightSidebar {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 5px;
+  color: white;
+}
+
+
+
+.footer {
+  background-color: white;
 }
 
 
